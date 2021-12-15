@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Test Scores App</title>
+    
+        <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
+        
+        <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-auth.js"></script>
+          
+        <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-database.js"></script>
+          
+        <script src="firebase.js" defer ></script>
+          
+        <script src="database.js" defer defer ></script>
+
+    </head>
+
+    <body>
+
+        <h1>Test Scores App</h1>
+        <h2>Add Students</h2>
+
+      <div>
+
+        <input type="text" id="setGradYear" value="" placeholder="GradYear">
+        <input type="text" id="setStudentName" value="" placeholder="StudentName">
+        <input type="text" id="setStudentGrade" value="" placeholder="LetterGrade">
+        <button id="addStudentBtn">Add Student</button>
+        <button id="getStudentBtn">Get Student</button>
+      
+      </div>
+      
+      <div>
+        
+        <p id = "getGradYear">Student Year</p> 
+        <p id = "getStudentName">Student Name</p> 
+        <p id = "getStudentGrade">Student Grade</p>
+
+      </div>
+
+     </body>
+</html>
